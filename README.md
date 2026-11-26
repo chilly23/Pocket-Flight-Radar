@@ -1,6 +1,22 @@
-# VIEWE ESP32-S3 port
+# Pocket Flight Radar
 
-See [README-VIEWE.md](README-VIEWE.md) for build and setup on your board. Original upstream documentation follows.
+A little aircraft radar for the VIEWE ESP32-S3 round display. Live ADS-B aircraft, Wi-Fi setup and a pocket-sized excuse to look up.
+
+## Credit where it belongs
+
+**This is a modified port of [MatixYo’s ESP32-Plane-Radar](https://github.com/MatixYo/ESP32-Plane-Radar), not an entirely original project.** MatixYo created the original plane-radar firmware and project. Please visit and support the upstream repository.
+
+This copy adapts the project for the VIEWE ESP32-S3 / CO5300 466 × 466 display and includes local display changes, build/flash helpers and verification notes. See [UPSTREAM.md](UPSTREAM.md) for provenance.
+
+**Start here:** [VIEWE build and setup](README-VIEWE.md) · [Verification notes](VERIFICATION.md) · [MIT license](LICENSE).
+
+## License
+
+Original code: copyright © 2026 MatixYo. Local modifications: copyright © 2026 chilly23. Both are distributed under the [MIT license](LICENSE); third-party dependencies retain their respective licenses.
+
+## Original upstream documentation
+
+The material below describes the original ESP32-C3 / GC9A01 project. Use README-VIEWE.md for this port’s hardware, pins and build instructions. The upstream photo, case and release links below belong to the original project.
 
 # Plane Radar
 
